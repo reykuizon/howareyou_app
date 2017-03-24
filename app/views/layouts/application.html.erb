@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HowareyouApp</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body onload="renderTime();">
+    
+    <%= yield %>
+
+    <%#FOOTER%>
+    <footer class="site_footer">
+       &copy; Rey Kuizon 2017
+    </footer>  
+  </body>
+</html>

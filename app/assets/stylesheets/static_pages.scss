@@ -1,0 +1,72 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+// SET FONT FAMILY FOR ALL
+* {
+  font-family: Impact, Haettenschweiler, 'Arial ', sans-serif;
+  // border: 1px solid gray;
+}
+
+// TO SET FOOTER @ THE BOOTOM
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+// FOOTER STYLING
+.site_footer {
+  background-color: #75c9d2;
+  height: 20px;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+// DAY STYLING
+.day {
+  color:#00B2FF;
+  text-align: left;
+  margin: 0px;
+  font-size: 10em;
+}
+
+// HOUR STYING
+.hour {
+  color: #ff8a00;
+  text-align: left;
+  font-size: 4em;
+}
+
+// MINUTES STYLING
+.minute {
+  color: #ffb51c;
+  text-align: left;
+  font-size: 7em;
+}
+
+// SECONDS STYLING
+.second {
+  color: #00ac83;
+  text-align: right;
+  font-size: 7em;
+  margin-top: 0px;
+}
+
+// & STYLING
+.and {
+  color: #d6d6d6;
+  font-size: 7em;
+  margin-top: 0px;
+}
+
+//DATE STYLING
+#dates {
+  color: #625bff;
+  font-size: 7em;
+  margin-top: 0px;
+  text-align: right;
+}
