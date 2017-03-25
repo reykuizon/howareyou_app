@@ -5,22 +5,24 @@
 
 
 // SET FONT FAMILY FOR ALL
-* {
+body {
   font-family: Impact, Haettenschweiler, 'Arial ', sans-serif;
-  // border: 1px solid gray;
+  background-image: url("nature.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  overflow-y: hidden;
 }
 
-// TO SET FOOTER @ THE BOOTOM
-#wrapper {
-  min-height: 100%;
-  position: relative;
+html {
+  height: 100%;
 }
 
-// FOOTER STYLING
+//FOOTER STYLING
 .site_footer {
-  background-color: #75c9d2;
-  height: 20px;
-  width: 100%;
+  font-family: arial;
+  color: white;
   position: absolute;
   left: 0px;
   bottom: 0px;
@@ -28,7 +30,7 @@
 
 // DAY STYLING
 .day {
-  color:#00B2FF;
+  color:white;
   text-align: left;
   margin: 0px;
   font-size: 10em;
@@ -36,23 +38,23 @@
 
 // HOUR STYING
 .hour {
-  color: #ff8a00;
+  color: wheat;
   text-align: left;
-  font-size: 4em;
+  font-size: 2em;
 }
 
 // MINUTES STYLING
 .minute {
-  color: #ffb51c;
+  color: wheat;
   text-align: left;
-  font-size: 7em;
+  font-size: 2em;
 }
 
 // SECONDS STYLING
 .second {
-  color: #00ac83;
-  text-align: right;
-  font-size: 7em;
+  color: wheat;
+  text-align: left;
+  font-size: 2em;
   margin-top: 0px;
 }
 
@@ -65,8 +67,14 @@
 
 //DATE STYLING
 #dates {
-  color: #625bff;
-  font-size: 7em;
+  color: wheat;
+  font-size: 2em;
   margin-top: 0px;
-  text-align: right;
+  text-align: left;
+}
+
+//SET THE FOOTER @ THE BOTTOM
+#wrapper {
+  min-height: 100%;
+  position: relative;
 }
