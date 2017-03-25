@@ -2,7 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
+// * {
+//     border: 1px solid gray;
+// }
 
 // SET FONT FAMILY FOR ALL
 body {
@@ -13,6 +15,7 @@ body {
   background-position: center;
   height: 100%;
   overflow-y: hidden;
+
 }
 
 html {
@@ -28,44 +31,25 @@ html {
   bottom: 0px;
 }
 
-// DAY STYLING
+// FOR DATE
 .day {
   color:white;
   text-align: left;
   margin: 0px;
-  font-size: 10em;
+  font-size: 6em;
+  margin-top: -50px;
+  padding-top: 1px;
 }
 
 // HOUR STYING
-.hour {
-  color: wheat;
-  text-align: left;
-  font-size: 2em;
+.time {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 10em;
 }
 
-// MINUTES STYLING
-.minute {
-  color: wheat;
-  text-align: left;
-  font-size: 2em;
-}
-
-// SECONDS STYLING
-.second {
-  color: wheat;
-  text-align: left;
-  font-size: 2em;
-  margin-top: 0px;
-}
-
-// & STYLING
-.and {
-  color: #d6d6d6;
-  font-size: 7em;
-  margin-top: 0px;
-}
-
-//DATE STYLING
+// DATE STYLING
 #dates {
   color: wheat;
   font-size: 2em;
@@ -73,8 +57,35 @@ html {
   text-align: left;
 }
 
-//SET THE FOOTER @ THE BOTTOM
+// SET THE FOOTER @ THE BOTTOM
 #wrapper {
   min-height: 100%;
   position: relative;
+}
+
+// FOR GREETINGS
+.greetings {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 4em;
+  margin-top: -150px;
+}
+
+// FOR QUESTION
+.how_are_you {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  margin-top: 0px;
+}
+
+// FOR QUOTE
+.quote {
+  font-family: Arial;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 180px;
 }
