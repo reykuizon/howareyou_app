@@ -58,10 +58,10 @@ function renderTime(){
   // ASSIGN ARRAY FOR DAYS
   var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   
-  // GET AND SET MONTHS
+  // GET AND SET DATE
   $(".month").html(months[mn.getMonth()] +" " +dt.getDate()+", "+y.getFullYear());
 
-  // GET AND SET DATE
+  // GET AND SET DAY
   $(".day").html(days[d.getDay()]);
   
   // GET AND SET TIME
