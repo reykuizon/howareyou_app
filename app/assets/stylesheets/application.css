@@ -14,7 +14,7 @@
  *= require_self
  */
 body {
-  background-image: url("/assets/nature.jpg");
+  background-image: url("nature.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
