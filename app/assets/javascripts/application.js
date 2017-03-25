@@ -65,9 +65,7 @@ function renderTime(){
   $(".day").html(days[d.getDay()]);
   
   // GET AND SET TIME
-  $(".hour").html(h.getHours()+":"); 
-  $(".minute").html(m.getMinutes() +":");
-  $(".second").html(s.getSeconds()); 
+  $(".hour").html(h.getHours()+":"+m.getMinutes()+":"+s.getSeconds()); 
 
   // SET TIMEOUT TO 1 SECOND
   setTimeout("renderTime()",1000);
